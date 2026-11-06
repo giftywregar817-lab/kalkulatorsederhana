@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator Sederhana JQuery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div class ="nama_nim">
+    <h3>Nama : Gifty Welian Siregar</h3>
+    <h3>NIM : 255150701111021</h3>
+</div>
+
+<body>
+
+    <div class="kalkulator">
+
+        <div class="layar">
+            <p id="riwayat"></p>
+            <h2 id="display">0</h2>
+        </div>
+
+        
+
+        <div class="tombol">
+
+            <button class="aksi" data-action="clear">C</button>
+            <button class="aksi" data-action="delete">DEL</button>
+            <button class="operator" data-operator="/">÷</button>
+            <button class="operator" data-operator="*">×</button>
+
+            <button class="angka" data-number="7">7</button>
+            <button class="angka" data-number="8">8</button>
+            <button class="angka" data-number="9">9</button>
+            <button class="operator" data-operator="-">−</button>
+
+            <button class="angka" data-number="4">4</button>
+            <button class="angka" data-number="5">5</button>
+            <button class="angka" data-number="6">6</button>
+            <button class="operator" data-operator="+">+</button>
+
+            <button class="angka" data-number="1">1</button>
+            <button class="angka" data-number="2">2</button>
+            <button class="angka" data-number="3">3</button>
+            <button class="sama-dengan" data-action="calculate">=</button>
+
+            <button class="angka nol" data-number="0">0</button>
+            <button class="angka" data-action="decimal">.</button>
+
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
